@@ -1,0 +1,116 @@
+{
+  "config": {
+    "virtual_dimensions": 18446744073709551615,
+    "active_dimensions": 128,
+    "integration_steps": 500,
+    "mode": "Narrative",
+    "noise_scale": 0.05,
+    "alpha": 0.95,
+    "seed_text": "くるみ"
+  },
+  "metrics": [
+    {
+      "step": 0,
+      "variance": 0.0028644276173394674,
+      "structure_score": 0.8098367674029142
+    },
+    {
+      "step": 25,
+      "variance": 0.0021028216877703003,
+      "structure_score": 0.5945139991459669
+    },
+    {
+      "step": 50,
+      "variance": 0.013228202229489722,
+      "structure_score": 3.7399040796960743
+    },
+    {
+      "step": 75,
+      "variance": 0.028318842378863954,
+      "structure_score": 8.006360373662721
+    },
+    {
+      "step": 100,
+      "variance": 0.0501968520315427,
+      "structure_score": 14.191755496612819
+    },
+    {
+      "step": 125,
+      "variance": 0.06496920083422972,
+      "structure_score": 18.368223817508284
+    },
+    {
+      "step": 150,
+      "variance": 0.08024913691845872,
+      "structure_score": 22.688198240904118
+    },
+    {
+      "step": 175,
+      "variance": 0.0998173325558707,
+      "structure_score": 28.22055807537204
+    },
+    {
+      "step": 200,
+      "variance": 0.1135712074875248,
+      "structure_score": 32.10908140425276
+    },
+    {
+      "step": 225,
+      "variance": 0.1324695690147353,
+      "structure_score": 37.45206438478377
+    },
+    {
+      "step": 250,
+      "variance": 0.15433097670423487,
+      "structure_score": 43.63276576713725
+    },
+    {
+      "step": 275,
+      "variance": 0.1778370708065098,
+      "structure_score": 50.27845621741161
+    },
+    {
+      "step": 300,
+      "variance": 0.20155775718265442,
+      "structure_score": 56.98481662922673
+    },
+    {
+      "step": 325,
+      "variance": 0.2222641146476548,
+      "structure_score": 62.83895987677726
+    },
+    {
+      "step": 350,
+      "variance": 0.2370456738256576,
+      "structure_score": 67.01803217360396
+    },
+    {
+      "step": 375,
+      "variance": 0.2516044925321281,
+      "structure_score": 71.13413083397232
+    },
+    {
+      "step": 400,
+      "variance": 0.26388223343771305,
+      "structure_score": 74.60531856648855
+    },
+    {
+      "step": 425,
+      "variance": 0.2617296563296697,
+      "structure_score": 73.99673761432524
+    },
+    {
+      "step": 450,
+      "variance": 0.25800229169480193,
+      "structure_score": 72.94292954860182
+    },
+    {
+      "step": 475,
+      "variance": 0.2593153792674002,
+      "structure_score": 73.31416832198637
+    }
+  ],
+  "generated_sentence": "徐々に、感たり領域ばっかり程度よ逸らそう。",
+  "variance_change": 77.28247989639851,
+  "intensity_score": 0.4394404198965859
+}
