@@ -19,6 +19,18 @@ Current LLMs mimic language through statistical probability. ESI, instead, treat
 * **Morpheme Synchronization**: Automatically parses UniDic-style Japanese corpus data (morphemes.csv) to map mathematical peaks to human vocabulary.  
 * **Deterministic Seed Mapping**: Uses prime-based dispersion (factor 137\) to ensure unique "semantic terrains" for every unique seed input.
 
+## **📝 Example Output (Verified)**
+
+Here is an actual result from the ESI v1.1.2 execution:
+
+Input Seed: くるみ  
+\[Sync\] 'morphemes.csv' detected.   
+\[Debug\] 7,390 lines scanned. 1,330 unique morphemes integrated.
+
+\[Experimental Results\]  
+Generated Sentence: "徐々に、感たり領域ばっかり程度よ逸らそう。"  
+Structure Formation Score: 77.28x
+
 ## **🔬 Mathematical Architecture**
 
 ### **1\. High-Dimensional Mapping**
@@ -30,10 +42,6 @@ Input seeds are hashed and projected into the sparse space. Only "active dimensi
 Meaning is formed by simulating a kinetic "terrain" where momentum $\\alpha$ governs the flow of information:
 
 $$m\_{t} \= \\alpha \\cdot m\_{t-1} \+ (1 \- \\alpha) \\cdot \\text{gradient}$$$$T\_{t} \= \\text{clamp}(T\_{t-1} \+ m\_t, \-1.0, 1.0)$$
-
-### **3\. Linguistic Assembly**
-
-The system identifies the "peaks" (highest energy dimensions) and maps them to specialized vocabulary categories (Nouns, Particles, Verbs, Adverbs), assembling sentences through structural priority rather than next-token prediction.
 
 ## **📊 Comparison: AI vs. ESI**
 
@@ -47,26 +55,36 @@ The system identifies the "peaks" (highest energy dimensions) and maps them to s
 
 ## **🛠️ Usage**
 
-### **Prerequisites**
+### **1\. Prerequisites**
 
 * Rust (Stable)
 
-### **Running the Experiment**
+### **2\. Preparing Vocabulary (morphemes.csv)**
 
-1. Place a morphemes.csv (UniDic format) in the root directory to sync vocabulary.  
-2. Execute the simulation:
+The system requires a vocabulary source to map dimensions to words.
+
+* **File Name**: morphemes.csv (Must be in the project root)  
+* **Format**: Supports CSV/TSV based on UniDic (Modern Japanese).  
+  * Column 2: Surface form (e.g., "静寂")  
+  * Column 6: Part of speech (e.g., "名詞")  
+* **Auto-Sync**: Upon launch, the system automatically merges new words from the CSV into vocabulary.json. If no CSV is present, the system defaults to a built-in minimal vocabulary.
+
+### **3\. Running the Experiment**
+
+Execute the simulation:
 
 cargo run \--release
 
-3. Enter a seed (e.g., "Deep Silence" or "無限の静寂").  
-4. Check results/report\_morpheme\_test.json for the mathematical proof of structure emergence.
+1. Enter a seed text when prompted.  
+2. The algorithm will generate a sentence and a **Structure Formation Score**.  
+3. Results are saved in results/report\_morpheme\_test.json.
 
 ## **📈 Research Significance**
 
-This algorithm proves that **"Structure Score" (Variance Change)** can increase purely through integration. By observing how randomness collapses into a low-variance "ordered state" ($\< 1.0x$ variance change), we gain insight into the fundamental nature of information itself.
+This algorithm proves that **"Structure Score" (Variance Change)** can increase purely through integration. By observing how randomness collapses into a low-variance "ordered state" ($\< 1.0x$) or crystallizes into high-energy peaks ($\> 1.0x$), we gain insight into the fundamental nature of information itself.
 
 ## **🌟 Final Thought**
 
 "In an era of trillion-parameter models, ESI asks a fundamental question: How much of what we call 'intelligence' is simply the physics of high-dimensional spaces?"
 
-*Developed by a 14-year-old researcher exploring the boundaries of mathematics and linguistics*
+*Exploring the boundaries of mathematics and linguistics*
