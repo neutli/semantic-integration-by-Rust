@@ -1,0 +1,116 @@
+{
+  "config": {
+    "virtual_dimensions": 80000,
+    "active_dimensions": 128,
+    "integration_steps": 500,
+    "mode": "Dialectic",
+    "noise_scale": 0.2,
+    "alpha": 0.7,
+    "seed_text": "くるみ"
+  },
+  "metrics": [
+    {
+      "step": 0,
+      "variance": 0.002536488253784412,
+      "structure_score": 0.8186891352697325
+    },
+    {
+      "step": 25,
+      "variance": 0.12699669833435998,
+      "structure_score": 40.990064506052796
+    },
+    {
+      "step": 50,
+      "variance": 0.27293714804507596,
+      "structure_score": 88.0945052209977
+    },
+    {
+      "step": 75,
+      "variance": 0.37722559987163773,
+      "structure_score": 121.75514698313529
+    },
+    {
+      "step": 100,
+      "variance": 0.3916943777127686,
+      "structure_score": 126.42515923392811
+    },
+    {
+      "step": 125,
+      "variance": 0.3764185271815116,
+      "structure_score": 121.49465232411474
+    },
+    {
+      "step": 150,
+      "variance": 0.38215749661385523,
+      "structure_score": 123.34698967079666
+    },
+    {
+      "step": 175,
+      "variance": 0.3893541963450749,
+      "structure_score": 125.66983105236329
+    },
+    {
+      "step": 200,
+      "variance": 0.39132257226413053,
+      "structure_score": 126.30515352099808
+    },
+    {
+      "step": 225,
+      "variance": 0.3585353707844481,
+      "structure_score": 115.7225988463344
+    },
+    {
+      "step": 250,
+      "variance": 0.4067362746262294,
+      "structure_score": 131.28015415003875
+    },
+    {
+      "step": 275,
+      "variance": 0.3900172028795127,
+      "structure_score": 125.88382622681254
+    },
+    {
+      "step": 300,
+      "variance": 0.43296799535219976,
+      "structure_score": 139.7468303610326
+    },
+    {
+      "step": 325,
+      "variance": 0.4518767781075322,
+      "structure_score": 145.8499199297975
+    },
+    {
+      "step": 350,
+      "variance": 0.4385878972355621,
+      "structure_score": 141.56073689354898
+    },
+    {
+      "step": 375,
+      "variance": 0.40495587806772493,
+      "structure_score": 130.70550480295643
+    },
+    {
+      "step": 400,
+      "variance": 0.404730639200746,
+      "structure_score": 130.63280562409722
+    },
+    {
+      "step": 425,
+      "variance": 0.383131747906711,
+      "structure_score": 123.66144369883857
+    },
+    {
+      "step": 450,
+      "variance": 0.4172701558594276,
+      "structure_score": 134.68012026656788
+    },
+    {
+      "step": 475,
+      "variance": 0.40492213519718423,
+      "structure_score": 130.69461379194414
+    }
+  ],
+  "generated_sentence": "限りなく、静寂は光輝を超えて論理は構築される。",
+  "variance_change": 128.27614920529405,
+  "intensity_score": 0.5649685440104428
+}

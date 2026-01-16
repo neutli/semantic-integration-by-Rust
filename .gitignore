@@ -1,0 +1,24 @@
+# ビルド成果物
+/target
+**/*.rs.bk
+Cargo.lock
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 実行ファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 一時ファイル
+*.tmp
+*.log
+
+# 環境変数
+.env
+.env.local

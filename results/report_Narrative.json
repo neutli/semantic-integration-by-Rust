@@ -1,0 +1,116 @@
+{
+  "config": {
+    "virtual_dimensions": 80000,
+    "active_dimensions": 128,
+    "integration_steps": 500,
+    "mode": "Narrative",
+    "noise_scale": 0.05,
+    "alpha": 0.95,
+    "seed_text": "くるみ"
+  },
+  "metrics": [
+    {
+      "step": 0,
+      "variance": 0.002446628494064407,
+      "structure_score": 0.8100319007993525
+    },
+    {
+      "step": 25,
+      "variance": 0.001933708900925268,
+      "structure_score": 0.6402140334787939
+    },
+    {
+      "step": 50,
+      "variance": 0.013137530612785567,
+      "structure_score": 4.349585120872147
+    },
+    {
+      "step": 75,
+      "variance": 0.027129693213068518,
+      "structure_score": 8.982122547333772
+    },
+    {
+      "step": 100,
+      "variance": 0.04604872124461798,
+      "structure_score": 15.24585088813058
+    },
+    {
+      "step": 125,
+      "variance": 0.07016808399761447,
+      "structure_score": 23.23131059493825
+    },
+    {
+      "step": 150,
+      "variance": 0.0938367900991104,
+      "structure_score": 31.067566503576938
+    },
+    {
+      "step": 175,
+      "variance": 0.11646995835452781,
+      "structure_score": 38.560975636808706
+    },
+    {
+      "step": 200,
+      "variance": 0.14593145527214907,
+      "structure_score": 48.315113793243825
+    },
+    {
+      "step": 225,
+      "variance": 0.1758243397194336,
+      "structure_score": 58.21207611014384
+    },
+    {
+      "step": 250,
+      "variance": 0.20447373468869273,
+      "structure_score": 67.6973428435286
+    },
+    {
+      "step": 275,
+      "variance": 0.22463840368914884,
+      "structure_score": 74.3734790853226
+    },
+    {
+      "step": 300,
+      "variance": 0.23441731405437038,
+      "structure_score": 77.61108927833067
+    },
+    {
+      "step": 325,
+      "variance": 0.24573064135396439,
+      "structure_score": 81.35671557144703
+    },
+    {
+      "step": 350,
+      "variance": 0.2528586926985411,
+      "structure_score": 83.71667704236532
+    },
+    {
+      "step": 375,
+      "variance": 0.249019700231023,
+      "structure_score": 82.44566005994959
+    },
+    {
+      "step": 400,
+      "variance": 0.2514602415214298,
+      "structure_score": 83.25367660404021
+    },
+    {
+      "step": 425,
+      "variance": 0.2660957692284004,
+      "structure_score": 88.09921991249105
+    },
+    {
+      "step": 450,
+      "variance": 0.2791205671188205,
+      "structure_score": 92.41148138508495
+    },
+    {
+      "step": 475,
+      "variance": 0.2831518025403544,
+      "structure_score": 93.74614633278617
+    }
+  ],
+  "generated_sentence": "限りなく、調和は調和へと静寂の中で構築される。",
+  "variance_change": 95.69725494240849,
+  "intensity_score": 0.4617938454403897
+}

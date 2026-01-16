@@ -1,0 +1,17 @@
+[package]
+name = "semantic-integration"
+version = "0.1.0"
+edition = "2021"
+description = "Everling Noise-based semantic integration for language models without massive training"
+license = "Apache-2.0"
+
+[dependencies]
+rand = "0.8"
+rand_distr = "0.4"    # この行を追加
+ndarray = "0.15"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.2"
+
+[dev-dependencies]
+criterion = "0.5"
