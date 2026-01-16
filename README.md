@@ -1,214 +1,72 @@
-鋭い指摘です！ 確かにこれは「AI」ではなく「数学的アルゴリズムによる生成」です。READMEを修正しましょう。
+# **Everling Semantic Integration (ESI) \- v1.1.2**
 
-# Everling Semantic Integration (ESI)
+**A Mathematical Challenge to AI Orthodoxy: Emergence of Meaning Without Learning**
 
-**A 14-year-old's mathematical exploration of structure emergence without machine learning**
+"What if semantic structures are not learned from data, but crystallized from high-dimensional mathematical integration?"
 
-> "What if semantic structures emerge from pure mathematical integration, not from artificial intelligence?"
+## **🧮 The "Kurumi" Hypothesis**
 
-[![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Type](https://img.shields.io/badge/Type-Mathematical%20Algorithm-purple.svg)]()
-[![Approach](https://img.shields.io/badge/Approach-Training--Free-red.svg)]()
+ESI (Everling Semantic Integration) is a research project demonstrating that **coherent semantic output can emerge from purely mathematical operations**—specifically momentum-based integration and high-dimensional sparse mapping—without the need for neural networks, backpropagation, or massive training datasets.
 
-## 🧮 Abstract
+### **The Core Thesis:**
 
-This research demonstrates an alternative to neural networks: **coherent semantic structures emerge from purely mathematical integration** over high-dimensional spaces (80,000+ dimensions) **without any machine learning, training data, or neural networks**.
+Current LLMs mimic language through statistical probability. ESI, instead, treats language as a **crystalline structure** that forms when "noise" (stochastic gradients) is filtered through "inertia" (momentum) within a $2^{64}-1$ dimensional sparse space.
 
-**Key Distinction:** Unlike AI/ML approaches, this uses **deterministic mathematical algorithms** to generate meaningful language-like structures.
+## **🚀 Key Features (v1.1.2)**
 
-## 🎯 What This Is (and Isn't)
+* **Extreme Sparse Space**: Simulates a virtual space of $1.84 \\times 10^{19}$ dimensions using Rust's u64::MAX.  
+* **Zero-Training Emergence**: No GPU clusters or month-long training sessions. Structure emerges in milliseconds via the **Everling Integrator**.  
+* **Morpheme Synchronization**: Automatically parses UniDic-style Japanese corpus data (morphemes.csv) to map mathematical peaks to human vocabulary.  
+* **Deterministic Seed Mapping**: Uses prime-based dispersion (factor 137\) to ensure unique "semantic terrains" for every unique seed input.
 
-### ✅ What This IS:
-- **Mathematical algorithm** for structure formation
-- **Deterministic integration** of stochastic processes
-- **Algorithmic generation** of poetic language
-- **Proof-of-concept** for non-learning-based approaches
+## **🔬 Mathematical Architecture**
 
-### ❌ What This Is NOT:
-- **Artificial Intelligence** (no learning capability)
-- **Machine Learning** (no training data)
-- **Neural Network** (no neurons or layers)
-- **Language Model** (no next-token prediction)
+### **1\. High-Dimensional Mapping**
 
-## 🔬 Core Mathematical Mechanism
+Input seeds are hashed and projected into the sparse space. Only "active dimensions" are tracked using HashMap\<usize, f64\>, allowing for astronomical dimensionality with minimal memory footprint.
 
-### Everling Integration Algorithm
-```rust
-// Step 1: Generate random gradient
-gradient = random(-noise, +noise)
+### **2\. Everling Integration Algorithm**
 
-// Step 2: Update momentum (EMA)
-momentum = α * previous_momentum + (1-α) * gradient
+Meaning is formed by simulating a kinetic "terrain" where momentum $\\alpha$ governs the flow of information:
 
-// Step 3: Integrate to form terrain
-terrain = previous_terrain + momentum
+$$m\_{t} \= \\alpha \\cdot m\_{t-1} \+ (1 \- \\alpha) \\cdot \\text{gradient}$$$$T\_{t} \= \\text{clamp}(T\_{t-1} \+ m\_t, \-1.0, 1.0)$$
 
-// Step 4: Vectors follow terrain
-vector = 0.9 * previous_vector + 0.1 * terrain
-```
+### **3\. Linguistic Assembly**
 
-### Structure Emergence Proof
-```
-Initial State:   High variance (randomness)
-Final State:     Low variance (structure)
-Emergence:       final_variance / initial_variance < 1.0
+The system identifies the "peaks" (highest energy dimensions) and maps them to specialized vocabulary categories (Nouns, Particles, Verbs, Adverbs), assembling sentences through structural priority rather than next-token prediction.
 
-Example: 0.32x = 68% order formation from randomness
-```
+## **📊 Comparison: AI vs. ESI**
 
-## 🚀 Quick Demonstration
+| Feature | Large Language Models (LLMs) | ESI (This Project) |
+| :---- | :---- | :---- |
+| **Logic** | Statistical Mimicry | Mathematical Integration |
+| **Data Requirement** | Terabytes of Text | None (Formula-based) |
+| **Energy Cost** | Megawatts | Millivolts |
+| **Explainability** | Black Box | Transparent Calculus |
+| **Training** | Gradient Descent (Backprop) | Forward Integration (Inertia) |
 
-```bash
-$ cargo run --release
-=== Mathematical Semantic Integration v1.0 ===
+## **🛠️ Usage**
 
-Select Language (1:EN, 2:JP, 3:CN): 2
+### **Prerequisites**
 
-Enter Seed: 無限の可能性
+* Rust (Stable)
 
-[Algorithm] Mode: Narrative
-  Seed: "無限の可能性"
-  Generated: 「微かに、思考へと深淵を超えて概念の中で構築される。」
-  Structure Formation: 0.32x (68% order from chaos)
-```
+### **Running the Experiment**
 
-## 📊 Why This Matters
+1. Place a morphemes.csv (UniDic format) in the root directory to sync vocabulary.  
+2. Execute the simulation:
 
-### Challenging AI/ML Orthodoxy
-| Approach | Training Data | Learning | Parameters | Explainability |
-|----------|---------------|----------|------------|----------------|
-| **LLMs (GPT, etc.)** | Billions of tokens | Required | Billions | Poor (black box) |
-| **This Algorithm** | None | None | ~10 | Perfect (mathematical) |
+cargo run \--release
 
-### Key Innovations
-1. **Zero Training**: No data needed, only mathematics
-2. **Perfect Explainability**: Every output traceable to equations
-3. **Computational Efficiency**: O(n) vs O(n²) for transformers
-4. **Minimal Resources**: Runs on any computer instantly
+3. Enter a seed (e.g., "Deep Silence" or "無限の静寂").  
+4. Check results/report\_morpheme\_test.json for the mathematical proof of structure emergence.
 
-## 🏗️ How It Works (Simplified)
+## **📈 Research Significance**
 
-```
-User Input
-    ↓
-Hash → 80,000-dimensional seed
-    ↓
-Everling Integration (500 steps)
-    ↓
-Vectors follow mathematical terrain
-    ↓
-Top dimensions → Words
-    ↓
-Poetic/Philosophical Output
-```
+This algorithm proves that **"Structure Score" (Variance Change)** can increase purely through integration. By observing how randomness collapses into a low-variance "ordered state" ($\< 1.0x$ variance change), we gain insight into the fundamental nature of information itself.
 
-## 🧩 Technical Architecture
+## **🌟 Final Thought**
 
-### Algorithmic Components
-```
-┌─────────────────────────────────┐
-│    Mathematical Integrator       │
-│  (Everling Noise: grad → momentum│
-│        → terrain → vectors)      │
-└───────────────────┬─────────────┘
-                    │
-┌───────────────────▼─────────────┐
-│    Statistical Analyzer          │
-│  (Variance, structure metrics)   │
-└───────────────────┬─────────────┘
-                    │
-┌───────────────────▼─────────────┐
-│    Linguistic Assembler          │
-│  (Algorithmic word combination)  │
-└─────────────────────────────────┘
-```
+"In an era of trillion-parameter models, ESI asks a fundamental question: How much of what we call 'intelligence' is simply the physics of high-dimensional spaces?"
 
-## 📈 Research Findings
-
-### Mathematical Evidence
-- **68% structure formation** from pure randomness (0.32x variance)
-- **Reproducible results** with same seed
-- **Scalable to 80,000 dimensions** without exponential cost
-
-### Generated Output Characteristics
-- **Poetic depth**: Philosophical and abstract
-- **Multilingual**: Works across language structures
-- **Seed-sensitive**: Different inputs → different outputs
-
-## 🎓 Educational Significance
-
-This project demonstrates:
-
-1. **Mathematics → Language** is possible
-2. **Alternatives to neural networks** exist
-3. **Simple algorithms** can create complex outputs
-4. **Youth can contribute** to computational linguistics
-
-## 🔧 For Developers & Researchers
-
-### To Extend This Research:
-```rust
-// 1. Add new mathematical integration methods
-struct YourIntegrator { /* new math here */ }
-
-// 2. Experiment with different dimensional spaces
-let dimensions = 160000; // Double the space
-
-// 3. Create new linguistic assembly rules
-fn your_assemble_method(state: &State) -> String { }
-```
-
-### Comparison Points:
-- Compare against Markov chains (similar simplicity)
-- Benchmark vs. rule-based generators
-- Analyze mathematical vs. statistical approaches
-
-## 📚 Theoretical Context
-
-### Related Fields:
-- **Algorithmic information theory**
-- **Mathematical linguistics**
-- **Complex systems** (emergence)
-- **Stochastic processes**
-
-### Why "Non-AI" Matters:
-```rust
-// AI/ML approach (typical):
-train_on_massive_data() → learn_patterns() → generate()
-
-// This approach:
-define_mathematics() → integrate() → structure_emerges()
-```
-
-## 🤔 Frequently Asked Questions
-
-**Q: Is this AI?**  
-A: No. It's a mathematical algorithm. No intelligence, no learning.
-
-**Q: Can it replace LLMs?**  
-A: Not for practical tasks. It's a philosophical exploration of alternatives.
-
-**Q: What's the point then?**  
-A: To show that meaningful structure can emerge from pure math, questioning if massive training is always necessary.
-
-**Q: Who is this for?**  
-A: Educators, researchers, and anyone interested in algorithmic alternatives to AI.
-
-## 📄 License
-
-Apache 2.0 - Open for examination, extension, and education.
-
-## 🌟 Final Thought
-
-> "In an age of billion-parameter models, this 100-line algorithm asks: How little computation is needed to create meaning-like structure?"
-
----
-
-*Project by a 14-year-old researcher exploring the boundary between mathematics and language.*
-
----
-
-**Ready to explore algorithmic generation?** Clone and run to see math create language-like structures!
-
----
+*Developed by a 14-year-old researcher exploring the boundaries of mathematics and linguistics*
