@@ -1,6 +1,6 @@
 {
   "config": {
-    "virtual_dimensions": 80000,
+    "virtual_dimensions": 18446744073709551615,
     "active_dimensions": 128,
     "integration_steps": 500,
     "mode": "Dialectic",
@@ -11,106 +11,106 @@
   "metrics": [
     {
       "step": 0,
-      "variance": 0.002536488253784412,
-      "structure_score": 0.8186891352697325
+      "variance": 0.0023575874453008296,
+      "structure_score": 0.8195712614770111
     },
     {
       "step": 25,
-      "variance": 0.12699669833435998,
-      "structure_score": 40.990064506052796
+      "variance": 0.14923677080331105,
+      "structure_score": 51.87937726331859
     },
     {
       "step": 50,
-      "variance": 0.27293714804507596,
-      "structure_score": 88.0945052209977
+      "variance": 0.2951957096825288,
+      "structure_score": 102.61927745218406
     },
     {
       "step": 75,
-      "variance": 0.37722559987163773,
-      "structure_score": 121.75514698313529
+      "variance": 0.34121133058830905,
+      "structure_score": 118.61574899285519
     },
     {
       "step": 100,
-      "variance": 0.3916943777127686,
-      "structure_score": 126.42515923392811
+      "variance": 0.3775833256062472,
+      "structure_score": 131.2597940308043
     },
     {
       "step": 125,
-      "variance": 0.3764185271815116,
-      "structure_score": 121.49465232411474
+      "variance": 0.3921072564522825,
+      "structure_score": 136.30876744165957
     },
     {
       "step": 150,
-      "variance": 0.38215749661385523,
-      "structure_score": 123.34698967079666
+      "variance": 0.3946112081015532,
+      "structure_score": 137.17921948616828
     },
     {
       "step": 175,
-      "variance": 0.3893541963450749,
-      "structure_score": 125.66983105236329
+      "variance": 0.40523481238801556,
+      "structure_score": 140.87231718391988
     },
     {
       "step": 200,
-      "variance": 0.39132257226413053,
-      "structure_score": 126.30515352099808
+      "variance": 0.418651837741815,
+      "structure_score": 145.5364955652564
     },
     {
       "step": 225,
-      "variance": 0.3585353707844481,
-      "structure_score": 115.7225988463344
+      "variance": 0.4396968440997677,
+      "structure_score": 152.8523991356447
     },
     {
       "step": 250,
-      "variance": 0.4067362746262294,
-      "structure_score": 131.28015415003875
+      "variance": 0.42030498715810827,
+      "structure_score": 146.1111820971269
     },
     {
       "step": 275,
-      "variance": 0.3900172028795127,
-      "structure_score": 125.88382622681254
+      "variance": 0.4282583593765943,
+      "structure_score": 148.87602346710165
     },
     {
       "step": 300,
-      "variance": 0.43296799535219976,
-      "structure_score": 139.7468303610326
+      "variance": 0.39573877330379903,
+      "structure_score": 137.57119647817518
     },
     {
       "step": 325,
-      "variance": 0.4518767781075322,
-      "structure_score": 145.8499199297975
+      "variance": 0.3849880834249407,
+      "structure_score": 133.83391984679244
     },
     {
       "step": 350,
-      "variance": 0.4385878972355621,
-      "structure_score": 141.56073689354898
+      "variance": 0.33930442353589446,
+      "structure_score": 117.95284835619718
     },
     {
       "step": 375,
-      "variance": 0.40495587806772493,
-      "structure_score": 130.70550480295643
+      "variance": 0.3295323968345277,
+      "structure_score": 114.55578570777259
     },
     {
       "step": 400,
-      "variance": 0.404730639200746,
-      "structure_score": 130.63280562409722
+      "variance": 0.3509896873704204,
+      "structure_score": 122.01501217567413
     },
     {
       "step": 425,
-      "variance": 0.383131747906711,
-      "structure_score": 123.66144369883857
+      "variance": 0.4098104854423607,
+      "structure_score": 142.46296449786394
     },
     {
       "step": 450,
-      "variance": 0.4172701558594276,
-      "structure_score": 134.68012026656788
+      "variance": 0.3906531032979426,
+      "structure_score": 135.803258245189
     },
     {
       "step": 475,
-      "variance": 0.40492213519718423,
-      "structure_score": 130.69461379194414
+      "variance": 0.4098256075183368,
+      "structure_score": 142.46822140526248
     }
   ],
-  "generated_sentence": "限りなく、静寂は光輝を超えて論理は構築される。",
-  "variance_change": 128.27614920529405,
-  "intensity_score": 0.5649685440104428
+  "generated_sentence": "限りなく、統一を横切って矛盾を超えて熱量へと忘れる。",
+  "variance_change": 137.328148999907,
+  "intensity_score": 0.5474310656822342
 }
